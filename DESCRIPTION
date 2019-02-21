@@ -1,0 +1,12 @@
+Package: declassification
+Type: Package
+Title: Classification using deconvoluted whole blood gene expression
+Version: 1.0
+Date: 2016-03-31
+Author: Li Wang
+Maintainer: Li Wang <tujiaojiao1981@gmail.com>
+Description: This package contains whole blood gene expression datasets for multiple diseases. It also includes functions for building disease-specific classifers using deconvoluated gene expression data. 
+License: GPL-3
+Depends: R (>=
+        2.10),glmnet,caret,ROCR,foreach,doMC,ranger,e1071,limSolve,NMF
+Packaged: 2016-04-01 17:33:33 UTC; wangl20

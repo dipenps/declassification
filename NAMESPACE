@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+
+import(glmnet,caret,ROCR,foreach,doMC,ranger,e1071,limSolve,NMF)
+export(Ztransform,classificationElasticNet,classificationRF,classificationSVM,featureselection,getcompM,getresM)
